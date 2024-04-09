@@ -35,12 +35,12 @@ for item in test.watch():
 	print(item)
 
 
-#  read              Read the value of a key
-#  list              List the contents of a dir
-#  write             Change the value of a key
-#  watch             Watch a path for changes
-#  dump              Dump an entire subpath to stdout
-#  load              Populate a subpath from stdin
+#  getvalue             Read the value of a key
+#  setvalue             Change the value of a key
+#  contents            	List the contents of a dir
+#  watch             	Watch a path for changes
+#  dump              	Dump an entire subpath to stdout
+#  load              	Populate a subpath from stdin
 
 ~~~
 
