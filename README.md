@@ -3,7 +3,12 @@
 
 
 # #DConfigure
-dconf is read, write, key list, load, dump, dir watch and database export module. it work on the system database.<br/>
+
+
+`DConfigure`, GNOME (GNU Network Object Model Environment) masaüstü ortamında kullanılan bir sistem ayarları yönetim aracıdır. Bu araç, kullanıcıların tercihlerini, yapılandırmalarını ve ayarlarını kaydetmek için bir veritabanı gibi calisir.
+
+
+<br/>
 
 ## Installation
 ~~~bash
@@ -37,18 +42,24 @@ for item in test.watch():
 
 ~~~
 ## getvalue
-Read the value of a key
+`Read` veritabanından belirli bir ayarın değerini okumak için kullanılır. 
 ## setvalue
-Change the value of a key
+`Write` veritabanına belirli bir ayarın değerini yazmak için kullanılır. Bir ayarın değerini değiştirmek veya güncellemek için kullanılir.
 
 ## contents
-List the contents of a dir
+`Key List` veritabanındaki tüm anahtarları (keys) listelemek için kullanılır. Sistemin yapılandırmasını anlamak veya denetlemek için kullanılabilir.
+
 ## watch
-Watch a path for changes
+`Path Watch` belirli bir dizini izleyerek veritabanındaki değişiklikleri algılamak. Sistem yapılandırmasının dinamik olarak güncellenmesini sağlar.
 
 ## load
-Populate a subpath from stdin
+`Load` Özellikle yapılandırma dosyalarını yüklemek veya başka bir sistemden veri almak için kullanışlıdır.
 
+## dump
+`Dump` veritabanını bir dosyaya dışa aktarmak yapılandırmaları yedeklemek veya başka bir sistemle paylaşmak için kullanılabilir.
+
+## export
+`Database Export` veritabanını başka bir formata dönüştürmek veya başka bir sistemle entegre etmek için kullanılır. 
 
 
 
