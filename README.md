@@ -5,7 +5,7 @@
 # #DConfigure
 
 
-`DConfigure`, GNOME (GNU Network Object Model Environment) masaüstü ortamında kullanılan bir sistem ayarları yönetim aracıdır. Bu araç, kullanıcıların tercihlerini, yapılandırmalarını ve ayarlarını kaydetmek için bir veritabanı gibi calisir.
+`DConfigure`, GNOME (GNU Network Object Model Environment) masaüstü ortamında kullanılan bir sistem ayarları yönetim aracıdır. Bu araç, kullanıcıların tercihlerini, yapılandırmalarını ve ayarlarını kaydetmek için kullanilir.
 
 
 <br/>
