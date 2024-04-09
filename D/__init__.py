@@ -30,8 +30,10 @@ class Configure(str):
 		# ['icon-size', 'test']
 		return key
 	def setvalue(self, key, value):
+
+		system("%s /%s/%s %s" % ("dconf write", self.path, self._split(key), self._convert2str(value)))
 		
-		return system("%s /%s/%s %s" % ("dconf write", self.path, self._split(key), self._convert2str(value)))
+		return self.path, self._split(key), self._convert2str(value)
 		# change the value of a key
 
 	
