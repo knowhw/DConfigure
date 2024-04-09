@@ -44,7 +44,7 @@ for item in test.watch():
 ## getvalue
 `Read` veritabanından belirli bir ayarın değerini okumak için kullanılır. 
 ## setvalue
-`Write` veritabanına belirli bir ayarın değerini yazmak için kullanılır. Bir ayarın değerini değiştirmek veya güncellemek için kullanılir.
+`Write` veritabanına belirli bir ayarın değerini yazmak veya değerini değiştirmek, güncellemek için kullanılir.
 
 ## contents
 `Key List` veritabanındaki tüm anahtarları (keys) listelemek için kullanılır. Sistemin yapılandırmasını anlamak veya denetlemek için kullanılabilir.
