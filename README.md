@@ -47,7 +47,7 @@ for item in test.watch():
 `Write` veritabanına belirli bir ayarın değerini yazmak veya değerini değiştirmek, güncellemek için kullanılir.
 
 ## contents
-`Key List` veritabanındaki tüm anahtarları (keys) listelemek için kullanılır. Sistemin yapılandırmasını anlamak veya denetlemek için kullanılabilir.
+`Key List` veritabanındaki tüm anahtarları (keys) listelemek, sistemin yapılandırmasını anlamak veya denetlemek için kullanılabilir.
 
 ## watch
 `Path Watch` belirli bir dizini izleyerek veritabanındaki değişiklikleri algılamak. Sistem yapılandırmasının dinamik olarak güncellenmesini sağlar.
