@@ -41,25 +41,5 @@ for item in test.watch():
 
 
 ~~~
-## getvalue
-`Read` veritabanından belirli bir ayarın değerini okumak için kullanılır. 
-## setvalue
-`Write` veritabanına belirli bir ayarın değerini yazmak veya değerini değiştirmek, güncellemek için kullanılir.
-
-## contents
-`Key List` veritabanındaki tüm anahtarları (keys) listelemek, sistemin yapılandırmasını anlamak veya denetlemek için kullanılabilir.
-
-## watch
-`Path Watch` belirli bir dizini izleyerek veritabanındaki değişiklikleri algılamak. Sistem yapılandırmasının dinamik olarak güncellenmesini sağlar.
-
-## load
-`Load` Özellikle yapılandırma dosyalarını yüklemek veya başka bir sistemden veri almak için kullanışlıdır.
-
-## dump
-`Dump` veritabanını bir dosyaya dışa aktarmak yapılandırmaları yedeklemek veya başka bir sistemle paylaşmak için kullanılabilir.
-
-## export
-`Database Export` veritabanını başka bir formata dönüştürmek veya başka bir sistemle entegre etmek için kullanılır. 
-
 
 
