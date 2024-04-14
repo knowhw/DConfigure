@@ -1,13 +1,13 @@
 
 from os import system
+from subprocess import call
+
 from os import popen 
 
-from subprocess import call
 
 
 class Configure(str):
 	
-		
 	def __init__(self, path):
 		
 		self.path = chr(47).join( [  item for item in self.split("/") if item ] )
@@ -58,24 +58,22 @@ class Configure(str):
 		
 		
 		return [ key.strip() for key in contentlist ]	
-		
+
+	
+	def export(path, dump):
+		with open(path, "w") as f :  f.write(dump)
 	def watch(self):
 		# watch a path for changes
 		
 		for item in call(["dconf", "watch", "/%s" % self.path]):
 			# subprocess.call
 			yield item
-		
-	def export(path, dump):
-		with open(path, "w") as f : 
-			f.write(dump)
-			
 	def load(d, ini):
-		""" ini: configure.ini """
 		system("%s %s < %s" % ("dconf load", d, ini))
 		# populate a subpath from stdin
+
+	
 	def dump(directory):
-		""" directory: ../database.ini """
 		return popen("%s %s" % ("dconf dump", directory)).read()
 		# dump an entire subpath to stdout
 		
